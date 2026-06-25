@@ -1,0 +1,12 @@
+{
+  "name": "adobe-creative-control",
+  "description": "从命令行驱动 macOS 上的 Adobe 全家桶（Photoshop/Illustrator/InDesign/After Effects/Premiere Pro/Media Encoder/Acrobat/Animate/Lightroom Classic/Dreamweaver/XD）：经 ExtendScript、BridgeTalk、aerender CLI、JSFL、Lua 插件、UXP 插件、MIDI 等已实测通道做图像/排版/视频渲染转码/批量导图等自动化。含 selftest.sh 一键自检。",
+  "version": "1.0.0",
+  "author": {
+    "name": "tuoxie2046"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tuoxie2046/claude-code-app-skills",
+  "repository": "https://github.com/tuoxie2046/claude-code-app-skills",
+  "keywords": ["adobe", "photoshop", "illustrator", "indesign", "after-effects", "premiere", "media-encoder", "xd", "animate", "lightroom", "dreamweaver", "automation", "extendscript", "bridgetalk", "uxp", "jsfl", "macOS"]
+}

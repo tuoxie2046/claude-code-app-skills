@@ -1,0 +1,12 @@
+{
+  "name": "klingai-video",
+  "description": "用 klingai.com（可灵 Kling）网页版文生视频：通过一个已登录的专用 Chromium + puppeteer-core 自动「填提示词 → 点生成 → 等待 → 下载 mp4」，支持单条与批量（串行）。",
+  "version": "1.0.0",
+  "author": {
+    "name": "tuoxie2046"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tuoxie2046/claude-code-app-skills",
+  "repository": "https://github.com/tuoxie2046/claude-code-app-skills",
+  "keywords": ["video", "text-to-video", "kling", "可灵", "browser-automation", "puppeteer"]
+}
