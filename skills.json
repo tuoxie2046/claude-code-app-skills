@@ -8,13 +8,60 @@
       "name": "klingai-video",
       "path": "klingai-video/SKILL.md",
       "description": "用 klingai.com（可灵 Kling）网页版文生视频：通过已登录的专用 Chromium + puppeteer-core 自动「填提示词 → 生成 → 下载 mp4」，支持单条与批量（串行）。",
-      "tags": ["video", "text-to-video", "kling", "可灵", "browser-automation", "puppeteer"],
+      "tags": [
+        "video",
+        "text-to-video",
+        "kling",
+        "可灵",
+        "browser-automation",
+        "puppeteer"
+      ],
       "platform": "macOS",
       "entry": "klingai-video/scripts/kling.js",
       "scripts": [
         "klingai-video/scripts/launch.sh",
         "klingai-video/scripts/kling.js",
         "klingai-video/scripts/klingen.js"
+      ]
+    },
+    {
+      "name": "adobe-creative-control",
+      "path": "adobe-creative-control/SKILL.md",
+      "description": "从命令行驱动 macOS 上的 Adobe 全家桶（Photoshop/Illustrator/InDesign/After Effects/Premiere Pro/Media Encoder/Acrobat/Animate/Lightroom Classic/Dreamweaver/XD）：经 ExtendScript、BridgeTalk、aerender CLI、JSFL、Lua 插件、UXP 插件、MIDI 等已实测通道做图像/排版/视频渲染转码/批量导图等自动化。",
+      "tags": [
+        "adobe",
+        "photoshop",
+        "illustrator",
+        "indesign",
+        "after-effects",
+        "premiere",
+        "media-encoder",
+        "xd",
+        "animate",
+        "lightroom",
+        "dreamweaver",
+        "automation",
+        "extendscript",
+        "bridgetalk",
+        "uxp",
+        "jsfl",
+        "macOS"
+      ],
+      "platform": "macOS",
+      "entry": "adobe-creative-control/selftest.sh",
+      "scripts": [
+        "adobe-creative-control/selftest.sh",
+        "adobe-creative-control/scripts/extendscript.sh",
+        "adobe-creative-control/scripts/indesign.sh",
+        "adobe-creative-control/scripts/bridgetalk.sh",
+        "adobe-creative-control/scripts/aerender.sh",
+        "adobe-creative-control/scripts/acrobat.sh",
+        "adobe-creative-control/scripts/animate.sh",
+        "adobe-creative-control/scripts/dreamweaver.sh",
+        "adobe-creative-control/scripts/lr-classic.sh",
+        "adobe-creative-control/scripts/xd-auto.sh",
+        "adobe-creative-control/scripts/charanim-midi.py",
+        "adobe-creative-control/scripts/lib/click.py"
       ]
     }
   ]

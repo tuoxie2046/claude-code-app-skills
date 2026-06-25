@@ -1,0 +1,9 @@
+{
+  "id": "com.claude.xdexport",
+  "name": "Claude Batch Export",
+  "version": "1.0.0",
+  "host": { "app": "XD", "minVersion": "13.0.0" },
+  "uiEntryPoints": [
+    { "type": "menu", "label": "Claude: Export Artboards as PNG", "commandId": "exportPNG" }
+  ]
+}
