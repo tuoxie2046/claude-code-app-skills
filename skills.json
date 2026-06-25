@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "claude-code-app-skills",
+  "description": "Claude Code 技能集合",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "klingai-video",
+      "path": "klingai-video/SKILL.md",
+      "description": "用 klingai.com（可灵 Kling）网页版文生视频：通过已登录的专用 Chromium + puppeteer-core 自动「填提示词 → 生成 → 下载 mp4」，支持单条与批量（串行）。",
+      "tags": ["video", "text-to-video", "kling", "可灵", "browser-automation", "puppeteer"],
+      "platform": "macOS",
+      "entry": "klingai-video/scripts/kling.js",
+      "scripts": [
+        "klingai-video/scripts/launch.sh",
+        "klingai-video/scripts/kling.js",
+        "klingai-video/scripts/klingen.js"
+      ]
+    }
+  ]
+}
