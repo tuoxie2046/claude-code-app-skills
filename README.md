@@ -8,6 +8,8 @@ Claude Code 技能集合。
 
 机器可读的技能清单见 [`skills.json`](skills.json)。
 
+想加新技能？流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ## License
 
 [MIT](LICENSE)
